@@ -1,2 +1,22 @@
-helloe
-add three lin
+ echo "hello,world" | git hash-object --stdin
+echo -e "blob 12\0hello,world" |shasum
+
+==================
+find .git/objects/ -type f
+git ls-files -s 
+git cat-file -t or -p or -s shaname
+=============
+-	git config --global user.name "John Doe"
+-	git config --global user.email johndoe@example.com
+-       git config --global core.editor "vim"
+git init
+git log
+git status
+git diff --staged 
+
+
+The code base goes like this
+$ cd /path/to/my/codebase
+$ git init
+$ git add .
+$ git commit
