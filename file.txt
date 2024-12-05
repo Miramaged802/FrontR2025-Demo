@@ -16,7 +16,10 @@ git diff --staged
 
 
 The code base goes like this
-$ cd /path/to/my/codebase
-$ git init
-$ git add .
-$ git commit
+cd /path/to/my/codebase
+ git init
+ git add .
+ git commit
+
+
+the end
